@@ -10,7 +10,7 @@ app.use(express.json()); // To parse incoming request body
 
 // MongoDB Atlas connection
 const mongoURI =
-  "mongodb+srv://22cse051:<db_password>@cluster0.fdsme.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://22cse051:<keerthi05>@cluster0.fdsme.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
